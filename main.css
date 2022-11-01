@@ -31,13 +31,7 @@ body {
 }
 
 
-/* Text and background color for dark mode */
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #ddd;
-    background-color: #222;
-  }
-}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
