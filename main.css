@@ -7,6 +7,8 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
+a:link { color: #4285F4; }
+/* a:link { color: black;   text-decoration: underline;} */
 
 .no-italics {
   font-style: normal;   
@@ -425,10 +427,11 @@ pre>code {
   float: left;
   margin-top: 25px;
   margin-right: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   max-width: 30%;
-  border: 6px solid #ddd;
+  /* border: 6px solid #ddd; */
   border-radius: 50%;
+  /* box-shadow: 5px 10px #888888; */
   box-sizing: border-box;
 }
 
@@ -456,7 +459,11 @@ ul.publications li {
 
 ul.publications .title {
   display: block;
-  font-style: italic;
+  color: #94070a;
+  /* color: 	#DB4437; */
+  /* font-style: italic; */
+  /* font-weight: bold; */
+
 }
 
 ul.publications .authors {
@@ -490,8 +497,8 @@ ul.publications .intro {
 
 
 ul.publications .oral {
-  /* color: green; */
-  color: #8c0000;
+  color: 	#0F9D58;
+  /* color: #94070a; */
   font-style: normal;
   font-weight: bold;
   font-size: 0.8rem;
