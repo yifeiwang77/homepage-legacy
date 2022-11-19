@@ -459,7 +459,7 @@ ul.publications li {
   /* background-color:rgba(255, 225, 0, 0.284); */
 }
 
-/* li.featured { background:rgba(255, 225, 0, 0.284); } */
+li.featured { background:rgba(255, 225, 0, 0.076); }
 
 
 ul.publications .title {
