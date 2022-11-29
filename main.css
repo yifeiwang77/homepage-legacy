@@ -428,7 +428,7 @@ pre>code {
   float: left;
   margin-top: 25px;
   margin-right: 25px;
-  margin-bottom: 70px;
+  margin-bottom: 90px;
   max-width: 30%;
   /* border: 6px solid #ddd; */
   border-radius: 50%;
@@ -454,7 +454,7 @@ ul.publications {
 
 ul.publications li {
   margin-bottom: 16px;
-  border-left: 3px solid ; 
+  border-left: 2px solid ; 
   padding:0 10px;
   /* background-color:rgba(255, 225, 0, 0.284); */
 }
@@ -477,19 +477,19 @@ ul.publications .authors {
 }
 
 ul.publications .journal-info {
-  /* color: #828282; */
+  color: #828282;
   font-size: 0.8rem;
 }
 
 ul.publications .year {
   float: right;
   /* color: #828282; */
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 ul.publications .links {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 ul.publications .intro {
