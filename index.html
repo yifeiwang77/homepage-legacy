@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Yifei Wang @ PKU</title>
+  <title>Yifei Wang</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="main.css">
@@ -34,7 +34,7 @@
           </p>
 
           <p>
-            My research aims at theoretical understandings and principled designs of foundation models and learning algorithms, with special interests in self-supervised learning, out-of-distribution robustness, and graph learning dynamics.
+            My research aims at theoretical understandings and principled designs of foundation models and learning algorithms, with special interests in self-supervised learning, adversarial learning, and graph-based models (GNN, Transformer).
             If you find my work interesting, please feel free to reach out.
           </p>
             <a href="files/yifei-wang-pku-cv.pdf"><span>CV</span></a> /
@@ -69,26 +69,27 @@
     <div class="wrapper">
       <article class="post">
         <header class="post-header">
-          <h1 class="post-title">Publications</h1>
-          <span class="footnote">Note: * marks equal contribution. <span style="background-color:rgba(255, 225, 0, 0.076);">My favorites are highlighted.</span> See <a href="publication.html">here</a> for a list grouped by topics. </span>
-        </header>
+          <h1 class="post-title">Selected Publications     <span style="font-size:medium"><a href=publication.html>[Full list]</a></span></h1>
+        </header> 
 
         <div class="post-content">
 
             <ul class="publications">
-              <li class="article">
-                <span class="title">
-                  On the Connection between Invariant Learning and Adversarial Training for Out-of-Distribution Generalization
-                </span>
-                <span class="authors">Shiji Xin, <strong>Yifei Wang</strong>, Jingtong Su, Yisen Wang</span>
-                <span class="journal-info">AAAI 2023</span>
-                <span class="year">2023</span>
-                <span class="links">
-                  <a href="">PDF</a>
-                </span>
-            </li>
 
-            <ul class="publications">
+              <li class="featured">
+                <span class="title">
+                Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning via Augmentation Overlap <i class='no-italics' ></i>
+                </span>
+                <span class="authors"><strong>Yifei Wang*</strong>, Qi Zhang*, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
+                <span class="journal-info">ICLR 2022</span>
+                <span class="year">2022</span>
+                <span class="links">
+                  <a href="http://arxiv.org/pdf/2203.13457">PDF</a> |
+                  <a href="https://github.com/zhangq327/ARC">Code</a> |
+                  <a href="files/slides/ICLR2022_overlap.pdf">Slides</a>
+                </span>
+              </li>
+    
               <li class="featured">
                 <span class="title">
                 How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders
@@ -103,99 +104,21 @@
                   <a href="files/slides/NeurIPS2022_mae.pdf">Slides</a>
                 </span>
             </li>
-            <li class="article">
-              <span class="title">
-              Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors <i class='no-italics'>  </i>
-              </span>
-              <span class="authors">Qixun Wang*, <strong>Yifei Wang*</strong>, Hong Zhu, Yisen Wang</span>
-              <span class="journal-info">NeurIPS 2022 <span class="oral">(Spotlight, Top 5%)</span></span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="https://arxiv.org/pdf/2210.06807">PDF</a> |
-                <a href="https://github.com/NOVAglow646/NIPS22-MAT-and-LDAT-for-OOD">Code</a> |
-                <a href="files/slides/NeurIPS2022_OOD.pdf">Slides</a>
-              </span>
-            </li>
-
-            <li class="article">
+          </li>
+          <li class="article">
             <span class="title">
-              When Adversarial Training Meets Vision Transformers: Recipes from Training to Architecture  <i class='no-italics'>  </i>
-              </span>
-              <!-- <span class="oral">SPOTLIGHT</span>               -->
-              <span class="authors">Yichuan Mo, Dongxian Wu, <strong>Yifei Wang</strong>, Yiwen Guo, Yisen Wang</span>
-              <span class="journal-info">NeurIPS 2022 <span class="oral">(Spotlight, Top 5%)</span></span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="https://arxiv.org/pdf/2210.07540.pdf">PDF</a> |
-                <a href="https://github.com/mo666666/When-Adversarial-Training-Meets-Vision-Transformers">Code</a>
-              </span>
-            </li>
+            Residual Relaxation for Multi-view Representation Learning <i class='no-italics'></i>
+            </span>
+            <span class="authors"><strong>Yifei Wang</strong>, Zhengyang Geng, Feng Jiang, Chuming Li, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
+            <span class="journal-info">NeurIPS 2021</span>
+            <span class="year">2021</span>
+            <span class="links">
+              <a href="https://arxiv.org/pdf/2110.15348">PDF</a> |
+              <a href="files/slides/NeurIPS2021_Prelax_slides.pdf">Slides</a> |
+              <a href="https://mp.weixin.qq.com/s/AT9kWTNiImwS-Ns-zM5pCw">Blog </a>
+            </span>
+          </li>
 
-            <li class="article">
-              <span class="title">
-                Variational Energy-Based Models: A Probabilistic Framework for Contrastive Self-Supervised Learning <i class='no-italics'>  </i>
-              </span>
-              <span class="authors">Tianqi Du*, <strong>Yifei Wang*</strong>, Weiran Huang, Yisen Wang</span>
-              <span class="journal-info">NeurIPS 2022 SSL Workshop
-              </span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="https://sslneurips22.github.io/paper_pdfs/paper_64.pdf">PDF</a>
-              </span>
-            </li>
-
-            <li class="article">
-              <span class="title">
-              AggNCE: Asymptotically Identifiable Contrastive Learning <i class='no-italics'>  </i>
-              </span>
-              <span class="authors">Jingyi Cui*, Weiran Huang*, <strong>Yifei Wang</strong>, Yisen Wang</span>
-              <span class="journal-info">NeurIPS 2022 SSL Workshop <span class="oral">(Oral)</span></span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="https://sslneurips22.github.io/paper_pdfs/paper_68.pdf">PDF</a>
-              </span>
-            </li>
-
-            
-            <li class="article">
-              <span class="title">
-                Optimization-Induced Graph Implicit Nonlinear Diffusion
-                <i class='no-italics' ></i>
-              </span>
-              <span class="authors">Qi Chen, <strong>Yifei Wang</strong>, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
-              <span class="journal-info">ICML 2022</span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="https://proceedings.mlr.press/v162/chen22z/chen22z.pdf">PDF</a> | 
-                <a href="https://github.com/7qchen/GIND">Code</a>
-              </span>
-            </li>
-
-            <li class="article">
-              <span class="title">
-                G<sup>2</sup>CN: Graph Gaussian Convolution Networks with Concentrated Graph Filters
-                <i class='no-italics' ></i>
-              </span>
-              <span class="authors">Mingjie Li, Xiaojun Guo, <strong>Yifei Wang</strong>, Yisen Wang, Zhouchen Lin</span>
-              <span class="journal-info">ICML 2022</span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="https://proceedings.mlr.press/v162/li22h/li22h.pdf">PDF</a>
-            </li>
-
-            <li class="featured">
-              <span class="title">
-              Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning via Augmentation Overlap <i class='no-italics' ></i>
-              </span>
-              <span class="authors"><strong>Yifei Wang*</strong>, Qi Zhang*, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
-              <span class="journal-info">ICLR 2022</span>
-              <span class="year">2022</span>
-              <span class="links">
-                <a href="http://arxiv.org/pdf/2203.13457">PDF</a> |
-                <a href="https://github.com/zhangq327/ARC">Code</a> |
-                <a href="files/slides/ICLR2022_overlap.pdf">Slides</a>
-              </span>
-            </li>
             <li class="featured">
               <span class="title">
                 A Unified Contrastive Energy-based Model for Understanding the Generative Ability of Adversarial Training <i class='no-italics'>  </i>
@@ -210,29 +133,22 @@
             </li>
             <li class="article">
               <span class="title">
-                Fooling Adversarial Training with Inducing Noise
-                <i class='no-italics'></i>
+              Reparameterized Sampling for Generative Adversarial Networks <i class='no-italics'> </i>
               </span>
-              <span class="authors"> Zhirui Wang*, <strong>Yifei Wang*</strong>, Yisen Wang</span>
-              <span class="journal-info">Tech report, Nov. 2021</span>
+                          
+              <span class="authors"><strong>Yifei Wang</strong>, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
+              <span class="journal-info"> ECML-PKDD 2021 
+                </span>
               <span class="year">2021</span>
+              <span class="oral">(🏆 Best ML Paper Award (1/685). Invited to Machine Learning Journal)</span>              
               <span class="links">
-                <a href="https://arxiv.org/pdf/2111.10130">PDF</a> 
+                <a href="https://arxiv.org/pdf/2107.00352">PDF</a> |
+                <a href="https://github.com/yifeiwang77/repgan">Code</a> |
+                <a href="files/slides/ECML2021_REPGAN_slides.pdf">Slides</a> |
+                <a href="https://mp.weixin.qq.com/s/Ah43Tqhn0CL2kLxhI_nieQ">Media </a> |
+                <a href="https://www.bilibili.com/video/BV1sL4y167gj">Talk </a> |
+                <a href="https://2021.ecmlpkdd.org/index.html@p=2148.html">Award</a>
               </span>
-            </li>
-              <li class="article">
-              <span class="title">
-              Residual Relaxation for Multi-view Representation Learning <i class='no-italics'></i>
-              </span>
-              <span class="authors"><strong>Yifei Wang</strong>, Zhengyang Geng, Feng Jiang, Chuming Li, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
-              <span class="journal-info">NeurIPS 2021</span>
-              <span class="year">2021</span>
-              <span class="links">
-                <a href="https://arxiv.org/pdf/2110.15348">PDF</a> |
-                <a href="files/slides/NeurIPS2021_Prelax_slides.pdf">Slides</a> |
-                <a href="https://mp.weixin.qq.com/s/AT9kWTNiImwS-Ns-zM5pCw">Blog </a>
-              </span>
-            </li>
             <li class="article">
               <span class="title">
                 Dissecting the Diffusion Process in Linear Graph Convolutional Networks <i class='no-italics'></i>
@@ -247,53 +163,22 @@
                 <a href="https://mp.weixin.qq.com/s/H5GJnsc3F-qFAUPuZBJ4gA">Blog </a>
               </span>
               <!-- <span class="intro">A properly designed linear GCN (from a <strong>continuous</strong> perspective) is on par with SOTA nonlinear GCNs while being 100x faster => <strong>Unsupervised linear features</strong> can be astonishingly effective.</span> -->
-            </li>
+            </li>            
             <li class="article">
               <span class="title">
-              Reparameterized Sampling for Generative Adversarial Networks <i class='no-italics'> </i>
+              Improving Out-of-distribution Robustness by Adversarial Training with Structured Priors <i class='no-italics'>  </i>
               </span>
-                          
-              <span class="authors"><strong>Yifei Wang</strong>, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
-              <span class="journal-info"> ECML-PKDD 2021 
-                </span>
-              <span class="year">2021</span>
-              <span class="oral">(🏆 Best ML Paper Award (1/685) & Invited to <strong>Machine Learning</strong> Journal)</span>              
+              <span class="authors">Qixun Wang*, <strong>Yifei Wang*</strong>, Hong Zhu, Yisen Wang</span>
+              <span class="journal-info">NeurIPS 2022 <span class="oral">(Spotlight, Top 5%)</span></span>
+              <span class="year">2022</span>
               <span class="links">
-                <a href="https://arxiv.org/pdf/2107.00352">PDF</a> |
-                <a href="https://github.com/yifeiwang77/repgan">Code</a> |
-                <a href="files/slides/ECML2021_REPGAN_slides.pdf">Slides</a> |
-                <a href="https://mp.weixin.qq.com/s/Ah43Tqhn0CL2kLxhI_nieQ">Media </a> |
-                <a href="https://www.bilibili.com/video/BV1sL4y167gj">Talk </a> |
-                <a href="https://2021.ecmlpkdd.org/index.html@p=2148.html">Award</a>
+                <a href="https://arxiv.org/pdf/2210.06807">PDF</a> |
+                <a href="https://github.com/NOVAglow646/NIPS22-MAT-and-LDAT-for-OOD">Code</a> |
+                <a href="files/slides/NeurIPS2022_OOD.pdf">Slides</a>
               </span>
+            </li>
               <!-- <span class="intro">Efficient high-dimensional MCMC by reparameterizing Markov transitions into the <strong>low-dimensional latent space </strong> through implicit models (GANs). </span> -->
             </li>
-            <li class="article">
-              <span class="title">
-              Train Once, and Decode as You Like <i class='no-italics'></i>
-              </span>
-              <span class="authors">Chao Tian, <strong>Yifei Wang</strong>, Hao Cheng, Yijiang Lian, Zhihua Zhang</span>
-              <span class="journal-info">COLING 2020</span>
-              <span class="year">2020</span>
-              <span class="links">
-                <a href="https://www.aclweb.org/anthology/2020.coling-main.25.pdf">PDF</a> 
-              </span>
-              <!-- <span class="intro">Train an autoregressive language model with random ordering masks, and you can decode with whatever order (forward or backward) & whatever decoding steps <strong> (full-, semi-, or non- autoregressive). </span> -->
-            </li>
-            <li class="article">
-              <span class="title">
-                Decoder-free Robustness Disentanglement without (Additional) Supervision
-                <i class='no-italics'></i>
-              </span>
-              <span class="authors"><strong>Yifei Wang</strong>, Dan Peng, Furui Liu, Zhenguo Li, Zhitang Chen, Jiansheng Yang</span>
-              <span class="journal-info">Tech report, July 2020</span>
-              <span class="year">2020</span>
-              <span class="links">
-                <a href="https://arxiv.org/pdf/2007.01356">PDF</a> 
-              </span>
-              <!-- <span class="intro">Train an autoregressive language model with random ordering masks, and you can decode with whatever order (forward or backward) & whatever decoding steps <strong> (full-, semi-, or non- autoregressive). </span> -->
-            </li>
-
           </ul>
         </div>
         <!-- <span class="footnote">* denotes equal contribution, often meaning multiple authors contributed to coding and running experiments.</span> -->
@@ -306,7 +191,7 @@
         <h1 class="post-title">Selected Honors and Awards</h1>
         </header>
         <div class="post-content">
-          National Scholarship, Ministry of Education of China, 2021 & 2022 <br>
+          National Scholarship, Ministry of Education of China, 2021, 2022 <br>
           Principal Scholarship, Peking University, 2022 <br>  
           <!-- <strong>Academic Innovation Award</strong>, Peking University, 2022. <br>   -->
           <!-- <a href="https://2021.ecmlpkdd.org/index.html@p=2148.html" style="color:#000000;"> -->
