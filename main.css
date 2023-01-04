@@ -473,23 +473,23 @@ ul.publications .title {
 
 ul.publications .authors {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 ul.publications .journal-info {
   color: #828282;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 ul.publications .year {
   float: right;
   /* color: #828282; */
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 ul.publications .links {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 ul.publications .intro {
