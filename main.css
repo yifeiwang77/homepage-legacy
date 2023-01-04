@@ -14,8 +14,8 @@ a:link { color: #4285F4; }
   font-style: normal;   
 }
 
-@font-face { font-family: Mukta; src: url('./files/font/Mukta-Light.ttf'); } 
-@font-face { font-family: Mukta; font-weight: bold; src: url('./files/font/Mukta-Medium.ttf');}
+@font-face { font-family: Mukta; src: url('files/font/Mukta-Light.ttf'); } 
+@font-face { font-family: Mukta; font-weight: bold; src: url('files/font/Mukta-Medium.ttf');}
 
 /**
  * Basic styling
