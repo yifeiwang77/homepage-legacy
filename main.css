@@ -17,6 +17,16 @@ a:link { color: #4285F4; }
 @font-face { font-family: Mukta; src: url('files/font/Mukta-Light.ttf'); } 
 @font-face { font-family: Mukta; font-weight: bold; src: url('files/font/Mukta-SemiBold.ttf');}
 
+.font {
+  font-family: 'Mukta';
+  color: transparent;
+}
+
+html.font-loaded .font {
+  color: inherit;
+}
+
+
 /**
  * Basic styling
  */
@@ -52,10 +62,10 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 12px 16px;
+  padding: 12px 12px;
   /* transition: 0.3s; */
   font-family: 'Mukta', sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 16px;
 }
 

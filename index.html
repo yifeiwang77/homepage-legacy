@@ -83,11 +83,11 @@
       </article>
     <!-- Tab links -->
     <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'Selected')" id="defaultOpen">Selected</button>
-      <button class="tablinks" onclick="openCity(event, 'All')">All</button>
-      <button class="tablinks" onclick="openCity(event, 'Unsupervised')">Unsupervised Learning</button>
-      <button class="tablinks" onclick="openCity(event, 'Adversarial')">Adversarial / Robust Learning</button>
-      <button class="tablinks" onclick="openCity(event, 'Graph')">Graph Learning</button>
+      <button class="tablinks" onclick="openCity(event, 'Selected')" id="defaultOpen">🌟 Selected</button>
+      <button class="tablinks" onclick="openCity(event, 'All')">📚 All</button>
+      <button class="tablinks" onclick="openCity(event, 'Unsupervised')">🎂 Unsupervised Learning</button>
+      <button class="tablinks" onclick="openCity(event, 'Adversarial')">🔨 Adversarial / Robust Learning</button>
+      <button class="tablinks" onclick="openCity(event, 'Graph')">🌐 Graph Learning</button>
     </div>
 
     <!-- Tab content -->
@@ -672,8 +672,22 @@
     </div>
   </div>
 </main> -->
-  
 
+<script>
+  // Check if API exists
+  if (document && document.fonts) {    
+    // Do not block page loading
+    setTimeout(function () {           
+      document.fonts.load('16px "Mukta"').then(() => {
+        // Make font using elements visible
+        document.documentElement.classList.add('font-loaded') 
+      })
+    }, 0)
+  } else {
+    // Fallback if API does not exist 
+    document.documentElement.classList.add('font-loaded') 
+  }
+</script>
 
 <script>
   function openCity(evt, cityName) {
