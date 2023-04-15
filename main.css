@@ -208,18 +208,18 @@ pre>code {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (24px * 2));
-  max-width: calc(800px - (24px * 2));
+  max-width: -webkit-calc(1000px - (24px * 2));
+  max-width: calc(1000px - (24px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 24px;
   padding-left: 24px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .wrapper {
-    max-width: -webkit-calc(800px - (24px));
-    max-width: calc(800px - (24px));
+    max-width: -webkit-calc(1000px - (24px));
+    max-width: calc(1000px - (24px));
     padding-right: 12px;
     padding-left: 12px;
   }
@@ -489,9 +489,9 @@ pre>code {
 
 .profile-picture {
   float: left;
-  margin-top: 25px;
+  margin-top: 5px;
   margin-right: 25px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   max-width: 30%;
   /* border: 6px solid #ddd; */
   border-radius: 50%;
