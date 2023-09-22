@@ -521,8 +521,8 @@ pre>code {
 }
 
 ul.publications {
-  /* list-style: none; */
-  list-style: decimal;
+  list-style: none;
+  /* list-style: decimal; */
   margin: 0;
 }
 
@@ -534,7 +534,7 @@ ul.publications {
 
 ul.publications li {
   margin-bottom: 16px;
-  /* border-left: 2px solid ;  */  
+  border-left: 2px solid ;   
   padding:0 10px;
   /* background-color:rgba(255, 225, 0, 0.284); */
 }
