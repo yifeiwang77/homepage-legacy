@@ -43,19 +43,22 @@
           <img src="assets/avatar.JPG" class="profile-picture">
 
           <p> Hello! I am a postdoctoral researcher at MIT <a href="https://www.csail.mit.edu/">CSAIL</a> working with <a href="https://people.csail.mit.edu/stefje/">Stefanie Jegelka</a>. 
-             I obtained my PhD in Applied Mathematics from <a href="https://www.pku.edu.cn">Peking University (PKU)</a> in 2023, advised by <a href="https://yisenwang.github.io/">Yisen Wang</a>, <a href="https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/y_20180628175159671361/69984.htm">Jiansheng Yang</a>, and <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. My works received <a href="https://2021.ecmlpkdd.org/index.html@p=2148.html">Best ML Paper Award</a> of ECML-PKDD 2021 and <a href="https://advml-workshop.github.io/icml2021/">Silver Best Paper Award</a> of ICML 2021 AdvML workshop. 
+             I obtained my PhD in Applied Mathematics from <a href="https://www.pku.edu.cn">Peking University (PKU)</a> in 2023, advised by <a href="https://yisenwang.github.io/">Yisen Wang</a>, <a href="https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/y_20180628175159671361/69984.htm">Jiansheng Yang</a>, and <a href="https://zhouchenlin.github.io/">Zhouchen Lin</a>. Prior to that, I got my bachelor's degrees also from PKU. My works received <a href="https://2021.ecmlpkdd.org/index.html@p=2148.html">Best ML Paper Award</a> of ECML-PKDD 2021 and <a href="https://advml-workshop.github.io/icml2021/">Silver Best Paper Award</a> of ICML 2021 AdvML workshop. 
           </p>
 
           <p>
-          I am generally interested in developing theoretical understandings and principled designs for machine learning algorithms. 
+          I am mostly interested in developing theoretical understandings and principled designs for machine learning in the following scenarios:
+          <!-- machine learning algorithms, especia paying attention to -->
           <!-- I work on <strong>self-supervised learning</strong>, <strong>adversarial learning</strong> (adversarial & OOD robustness), and <strong>graph learning</strong> (GNNs & Transformers), and  -->
-          I care the most about the following learning problems:
+          <!-- Now I care the most about  -->
+          <!-- the following learning scenarios: -->
           <ul>
-            <li><strong style="color:#0F9D58">What features we should learn:</strong> different learning objectives lead to different features. I am mostly interested in <strong>Self-Supervised Learning (SSL)</strong> that allows large-scale learning with massive unlabeled data.</li>
-            <li><strong style="color:#0F9D58">How features are learned:</strong> each NN has its own feature dynamics inside. I am interested in the mechanisms of the more "interpretable" ones with symmetry priors, such as, <strong>Graph Neural Networks</strong> and <strong>Transformers</strong>.</li>
-            <li><strong style="color:#0F9D58">How robust are learned models:</strong> real-world deployment requires model robustness. I explore how model vulenerabilty arises and how to build models <strong>robust to adversarial attacks and distribution shifts</strong>. </li>
+            <li><strong style="color:#0F9D58">Learning with limited supervision.</strong>  I am mostly interested in <strong>Self-Supervised Learning (SSL)</strong> that allows learning richful features from massive unlabeled data, laying the foundation for large-scale foundation models.</li>
+            <li><strong style="color:#0F9D58">Learning with symmetry.</strong> Symmetry priors introduce strong inductive bias to feature learning, as embodied in many neuiral networks like <strong>Graph Neural Networks</strong> (main focus), Transformers, and equivariant models.
+              <!-- I am interesting in understanding and utilizing and divising equivariant NNs, with symmetry priors, such as, <strong>Graph Neural Networks</strong> and <strong>Transformers</strong>.</li> -->
+            <li><strong style="color:#0F9D58">Learning with distribution shifts.</strong> In real-world applications, data distributions always shift. I explore how model failures arise and how to build <strong>robust models</strong> against adversarial and real-world distribution shifts. </li>
           </ul>
-          <!-- Feel free to shoot me an email if you are interested in working with me. -->
+          I am always open to collaboration! I have plenty of experiences mentoring/collaborating with graduate and undergraduate students (some admitted to UCB/CMU/NYU/Harvard/Cambridge etc) -- most of my ideas emerged from those inspiring discussions. Feel free to shoot me an email if you are interested in working with me.
          </p>
 
         </div>
@@ -82,10 +85,12 @@
         <article class="post">
 
           <ul>
-            <li>2024.01. 🔥 Three papers on understanding and designing modern SSL methods were accepted by <strong>ICLR 2024</strong>, covering 1) <a href="https://openreview.net/pdf?id=lNCnZwcH5Z">bridging NMF and contrastive learning to gain feature intepretability</a>, 2)  <a href="https://openreview.net/pdf?id=S5EqslEHnz">how contrastive learning benefits from synthetic data</a>, and 3) <a href="https://openreview.net/pdf?id=WNLAkjUm19">how discrete tokens help representation learning <strong style="color:#0F9D58">(Spotlight)</strong></a>. See you in Vienna! 🎡</li>
+            <li>2024.02. I am honored to receive Wenjun Wu Outstanding Ph.D. Dissertation Runner-Up Award</strong> (top 14 nation-wide) from <a href="https://en.caai.cn/">CAAI</a>. Wenjun Wu invented <a href="https://en.wikipedia.org/wiki/Wu%27s_method_of_characteristic_set">Wu's method</a> for automatic theorem proving and pioneered AI research in China. Thanks everyone! </li>
+            <li>2024.01. 🔥 Three papers about SSL methods were accepted by <strong>ICLR 2024</strong>, covering 1) <a href="https://openreview.net/pdf?id=lNCnZwcH5Z">non-negative contrastive learning</a>, 2)  <a href="https://openreview.net/pdf?id=S5EqslEHnz">the use of generated data for self-supervised learning</a>, and 3) <a href="https://openreview.net/pdf?id=WNLAkjUm19">discrete tokenization for visual representation learning <strong style="color:#0F9D58">(Spotlight)</strong></a>. 
+              <!-- See you in Vienna! 🎡</li> -->
             <li>2023.12. I have joined MIT CSAIL as a postdoc.</li>
             <li>2023.09. Five papers were accepted by <strong>NeurIPS 2023</strong>, aiming to provide better understandings of <a href="https://arxiv.org/pdf/2311.02687.pdf">graph CL</a>, <a href="https://arxiv.org/pdf/2310.18904.pdf">identifiability of CL</a>, <a href="https://arxiv.org/pdf/2310.18936.pdf">adversarial examples</a>, <a href="https://arxiv.org/pdf/2310.19360.pdf">robust overfitting</a>, and <a href="https://arxiv.org/pdf/2310.18716.pdf">canonicalizability of graph eigenvectors</a>. Paper and code are released.   </li>
-            <li>2023.09. I will be serving as an area chair for <strong>ICLR 2024</strong>.</li>
+            <li>2023.09. I will be serving as an Area Chair for <strong>ICLR 2024</strong>.</li>
             <li>2023.05. Two SSL papers were accepted by <strong>ICML 2023</strong>, which analyze the roles of <a href="https://arxiv.org/pdf/2306.04272">multi-modal supervision (e.g., image-text pairs in CLIP)</a> and <a href="https://arxiv.org/pdf/2306.04160">weak supervision (e.g., noisy labels)</a> in self-supervised learning.</li>
             <li>2023.02. One paper on <a href="https://arxiv.org/pdf/2303.14460.pdf">fairness in adversarial training</a> was accepted by CVPR 2023.</li> 
             <!-- <li>One paper on <a href="https://zhouchenlin.github.io/Publications/2023-TIP-Denoising.pdf">equilibrium-seeking image denoisor</a> was accepted by IEEE Transaction on Image Processing (TIP).</li> -->
@@ -117,7 +122,7 @@
       <!-- <button class="tablinks" onclick="openCity(event, 'All')"  id="defaultOpen">📚 All Publications</button> -->
       <!-- <button class="tablinks" onclick="openCity(event, 'Unsupervised')">Topics:</button> -->
       <button class="tablinks" onclick="openCity(event, 'Unsupervised')">🎂 Self-supervised Learning</button>
-      <button class="tablinks" onclick="openCity(event, 'Adversarial')">🔨 Adversarial Learning</button>
+      <button class="tablinks" onclick="openCity(event, 'Adversarial')">🔨 Robust Learning</button>
       <button class="tablinks" onclick="openCity(event, 'Graph')">🌐 Graph Learning</button>
     </div>
 
@@ -152,7 +157,7 @@
           <span class="title">
             On the Role of Discrete Tokenization in Visual Representation Learning
           </span>
-          <span class="authors">Tianqi Du, <strong>Yifei Wang*</strong>, Yisen Wang </span>
+          <span class="authors">Tianqi Du*, <strong>Yifei Wang*</strong>, Yisen Wang </span>
           <span class="journal-info">ICLR 2024 <strong style="color:#0F9D58">(Spotlight)</strong></span>
           <span class="year">2024</span>
           <span class="links">
@@ -629,7 +634,7 @@
         <span class="title">
           On the Role of Discrete Tokenization in Visual Representation Learning
         </span>
-        <span class="authors">Tianqi Du, <strong>Yifei Wang*</strong>, Yisen Wang </span>
+        <span class="authors">Tianqi Du*, <strong>Yifei Wang*</strong>, Yisen Wang </span>
         <span class="journal-info">ICLR 2024 <strong style="color:#0F9D58">(Spotlight)</strong></span>
         <span class="year">2024</span>
         <span class="links">
@@ -1129,7 +1134,7 @@
         <h1 class="post-title">Selected Awards</h1>
         </header>
         <div class="post-content">
-          <strong>Wuwenjun Outstanding Ph.D. Dissertation Runner-Up</strong> (top 14 nation-wide), <a href="https://en.caai.cn/">CAAI</a>, 2023<br>
+          <strong>Wuwenjun Outstanding Ph.D. Dissertation Runner-Up Award</strong> (top 14 nation-wide), <a href="https://en.caai.cn/">CAAI</a>, 2024<br>
           <strong>Excellent Graduate</strong> (top 1 per department), Beijing, 2023<br>
           <strong>Excellent Graduate</strong>, Peking University, 2023<br>
           <strong>Baidu Scholarship Runner-Up</strong> (top 20 nation-wide), Baidu Inc, 2022<br>
