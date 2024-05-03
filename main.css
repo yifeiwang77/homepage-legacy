@@ -499,10 +499,10 @@ pre>code {
 
 .profile-picture {
   float: left;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-right: 25px;
   margin-bottom: 5px;
-  max-width: 30%;
+  max-width: 27%;
   /* border: 6px solid #ddd; */
   border-radius: 50%;
   /* box-shadow: 5px 10px #888888; */
