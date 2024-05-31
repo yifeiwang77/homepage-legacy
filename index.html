@@ -93,29 +93,156 @@
         <article class="post">
 
           <ul>
-            <li>2024.04. Gave a talk on Non-negative Contrastive Learning at MIT LIDS Tea (<a href="assets/slides/NCL_LIDS_tea.pdf">slides</a>).</li>
+            <li>2024.05. I visited TU Munich, Germany, and gave a talk on <i>Self-supervised Learning of Identifiable Features</i>.</li>
+            <li>2024.05. I served as a Session Chair at ICLR 2024.</li>
+            <li>2024.04. I gave a talk on <i>Non-negative Contrastive Learning</i> at MIT LIDS Tea (<a href="assets/slides/NCL_LIDS_tea.pdf">slides</a>).</li>
             <li>2024.04. Anthropic proposed <a ref="https://www.anthropic.com/research/many-shot-jailbreaking">many-shot jailbreaking</a>, showing that extending our <a ref="https://arxiv.org/pdf/2310.06387.pdf">In-context Attack (ICA)</a> from a few shots (5) to many shots (256) can jailbreak most prominent LLMs (GPT-3.5/4, Claude2, Llama2-70B).  </li>
             <li>2024.02. I was honored to receive Wenjun Wu Outstanding Ph.D. Dissertation Runner-Up Award (top 14 nation-wide) from <a href="https://en.caai.cn/">CAAI</a>. Wenjun Wu invented <a href="https://en.wikipedia.org/wiki/Wu%27s_method_of_characteristic_set">Wu's method</a> for automatic theorem proving and pioneered AI research in China. Thanks everyone! </li>
             <li>2023.12. I have joined MIT CSAIL as a postdoc.</li>
             <li>2023.09. I will be serving as an Area Chair for ICLR 2024.</li>
     </div>
-
+    
     <div class="wrapper">
       <article class="post">
         <header class="post-header">
-          <h1 class="post-title" id="Publications">Publications <span style="font-size:14px;letter-spacing:0.00px;">(<strong>* marks equal contribution</strong>)</a></span> </h1>
+          <h1 class="post-title" id="Publications">Papers <span style="font-size:14px;letter-spacing:0.00px;">(<strong>* marks equal contribution</strong>)</a></span> </h1>
         </header> 
       </article>
     <!-- Tab links -->
     <div class="tab">
-      <button class="tablinks" disabled><i>Topics:</i></button>
-      <button class="tablinks" onclick="openCity(event, 'All')"  id="defaultOpen">📚 All</button>
-      <!-- <button class="tablinks" onclick="openCity(event, 'Selected')"   id="defaultOpen">🌟 Selected</button> -->
-      <!-- <button class="tablinks" onclick="openCity(event, 'All')"  id="defaultOpen">📚 All Publications</button> -->
+      <!-- <button class="tablinks" disabled><i>Topics:</i></button> -->
+      <!-- <button class="tablinks" onclick="openCity(event, 'All')"  id="defaultOpen">📚 All</button> -->
+      <button class="tablinks" onclick="openCity(event, 'Selected')"   id="defaultOpen">🌟 Highlights</button>
+      <button class="tablinks" onclick="openCity(event, 'All')">📚 All</button>
       <!-- <button class="tablinks" onclick="openCity(event, 'Unsupervised')">Topics:</button> -->
       <button class="tablinks" onclick="openCity(event, 'Unsupervised')">🎂 Self-supervised Learning</button>
       <button class="tablinks" onclick="openCity(event, 'Adversarial')">🔨 Adversarial Learning</button>
       <button class="tablinks" onclick="openCity(event, 'Graph')">🌐 Neural Architectures</button>
+    </div>
+
+    <div id="Selected" class="tabcontent">
+      <ul class="publications">
+        <li class="article">
+          <span class="title">
+            In-Context Symmetries: Self-Supervised Learning through Contextual World Models
+          </span>
+          <span class="authors">Sharut Gupta*, Chenyu Wang*, <strong>Yifei Wang*</strong>, Tommi Jaakkola, Stefanie Jegelka</span>
+          <span class="journal-info">arXiv preprint arXiv:2405.18193</span>
+          <span class="year">2024</span>
+          <span class="links">
+            <a href="https://arxiv.org/pdf/2405.18193">PDF</a>
+          </span>
+          </li>
+
+
+        <li class="article">
+          <span class="title">
+            A Theoretical Understanding of Self-Correction through In-context Alignment
+          </span>
+          <span class="authors"><strong>Yifei Wang*</strong>, Yuyang Wu*, Zeming Wei, Stefanie Jegelka, Yisen Wang
+          </span>
+          <span class="journal-info">arXiv preprint arXiv:2405.18634</span>
+          <span class="year">2024</span>
+          <span class="links">
+            <a href="https://arxiv.org/pdf/2405.18634">PDF</a>
+          </span>
+          </li>  
+
+          <li class="article">
+            <span class="title">
+              A Canonization Perspective on Invariant and Equivariant Learning
+            </span>
+            <span class="authors">George Ma*, <strong>Yifei Wang*</strong>, Derek Lim, Stefanie Jegelka, Yisen Wang
+            </span>
+            <span class="journal-info">arXiv preprint arXiv:2405.18378</span>
+            <span class="year">2024</span>
+            <span class="links">
+              <a href="https://arxiv.org/pdf/2405.18378">PDF</a>
+            </span>
+            </li>  
+
+            <li class="article">
+              <span class="title">
+                On the Role of Attention Masks and LayerNorm in Transformers
+              </span>
+              <span class="authors">Xinyi Wu, Amir Ajorlou, <strong>Yifei Wang</strong>, Stefanie Jegelka, Ali Jadbabaie
+              </span>
+              <span class="journal-info">arXiv preprint arXiv:2405.18781</span>
+              <span class="year">2024</span>
+              <span class="links">
+                <a href="https://arxiv.org/pdf/2405.18781">PDF</a>
+              </span>
+              </li>  
+
+              <li class="article">
+                <span class="title">
+                  Non-negative Contrastive Learning
+                </span>
+                <span class="authors"><strong>Yifei Wang*</strong>, Qi Zhang*, Yaoyu Guo, Yisen Wang</span>
+                <span class="journal-info">ICLR 2024</span>
+                <span class="year">2024</span>
+                <span class="links">
+                  <a href="https://arxiv.org/pdf/2403.12459">PDF</a> | 
+                  <a href="https://github.com/PKU-ML/non_neg">Code</a> |
+                  <a href="assets/slides/NCL_LIDS_tea.pdf">Slides</a>
+                </span>
+                </li>    
+
+          <li class="article">
+            <span class="title">
+              A Message Passing Perspective on Learning Dynamics of Contrastive Learning
+            </span>
+            <span class="authors"><strong>Yifei Wang*</strong>, <u>Qi Zhang</u>*, <u>Tianqi Du</u>, Jiansheng Yang, Zhouchen Lin, Yisen Wang </span>
+            <span class="journal-info">ICLR 2023</span>
+            <span class="year">2023</span>
+            <span class="links">
+              <a href="https://openreview.net/pdf?id=VBTJqqWjxMv">PDF</a> |
+              <a href="https://github.com/PKU-ML/Message-Passing-Contrastive-Learning">Code</a> |
+              <a href="assets/slides/ICLR23_Message_Passing.pdf">Slides</a> |
+              <a href="https://mp.weixin.qq.com/s/e18pZfee7ffwAHMUBZ_OEg">Blog</a>
+            </span>
+        </li>
+        <li class="article">
+          <span class="title">
+            Towards a Unified Theoretical Understanding of Non-contrastive Learning via Rank Differential Mechanism
+          </span>
+          <span class="authors"><u>Zhijian Zhuo*</u>, <strong>Yifei Wang*</strong>, Jinwen Ma, Yisen Wang </span>
+          <span class="journal-info">ICLR 2023</span>
+          <span class="year">2023</span>
+          <span class="links">
+            <a href="https://openreview.net/pdf?id=cIbjyd2Vcy">PDF</a> | 
+            <a href="https://github.com/PKU-ML/Rank-Differential-Mechanism">Code</a>
+          </span>
+      </li>
+  
+        <li class="article">
+          <span class="title">
+          How Mask Matters: Towards Theoretical Understandings of Masked Autoencoders
+          </span>
+          <!-- <span class="oral">SPOTLIGHT</span>               -->
+          <span class="authors"><u>Qi Zhang</u>*, <strong>Yifei Wang*</strong>, Yisen Wang</span>
+          <span class="journal-info">NeurIPS 2022 <span class="oral">(Spotlight, Top 5%)</span>   </span>
+          <span class="year">2022</span>
+          <span class="links">
+            <a href="https://arxiv.org/pdf/2210.08344">PDF</a> |
+            <a href="https://github.com/zhangq327/U-MAE">Code</a> |
+            <a href="assets/slides/NeurIPS2022_mae.pdf">Slides</a>
+          </span>
+      </li>        
+        <li class="article">
+          <span class="title">
+          Chaos is a Ladder: A New Theoretical Understanding of Contrastive Learning via Augmentation Overlap <i class='no-italics' ></i>
+          </span>
+          <span class="authors"><strong>Yifei Wang*</strong>, <u>Qi Zhang</u>*, Yisen Wang, Jiansheng Yang, Zhouchen Lin</span>
+          <span class="journal-info">ICLR 2022</span>
+          <span class="year">2022</span>
+          <span class="links">
+            <a href="http://arxiv.org/pdf/2203.13457">PDF</a> |
+            <a href="https://github.com/zhangq327/ARC">Code</a> |
+            <a href="assets/slides/ICLR2022_overlap.pdf">Slides</a>
+          </span>
+        </li>
+
     </div>
 
     <div id="All" class="tabcontent">
